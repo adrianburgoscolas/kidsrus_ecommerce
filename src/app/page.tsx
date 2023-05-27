@@ -1,19 +1,13 @@
-import Image from 'next/image';
-
-import slider1 from './images/slider-1.jpg';
-import girlsPower from './images/girls-power.jpg';
+import HomeHeader from '@/app/components/HomeHeader';
 
 export default function Home() {
   return (
-    <main className="grow">
-      <header>
-        <Image src={slider1} alt='Slider 1'/>
-        <Image src={girlsPower} alt='Girls Power'/>
-      </header>
+    <main className='grow w-[52rem] mt-10 mx-auto'>
+      <HomeHeader />
       <nav></nav>
       <aside></aside>
       <section></section>
-      <section></section>
+      <footer></footer>
     </main>
   )
 }

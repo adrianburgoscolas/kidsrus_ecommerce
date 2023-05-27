@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <nav 
-      className={`bg-white sticky top-0 p-4 text-primary flex justify-center items-center gap-6 text-[0.75rem] ${francois_one.className}`}
+      className={`z-20 bg-white sticky top-0 p-4 text-primary flex justify-center items-center gap-6 text-[0.7rem] ${francois_one.className}`}
     >
       <NavLink linkText={'HOME'} />
       <NavLink linkText={'SHOP FEATURES'} />
@@ -20,13 +20,13 @@ export default function Nav() {
       <NavLink linkText={'POST TYPES'} />
       <div className='flex gap-4'>
         <ButtonBadge value={0}>
-          <FontAwesomeIcon className='h-4 text-secdark mb-1.5' icon={faHeart} />
+          <FontAwesomeIcon className='h-3 text-secdark mb-3' icon={faHeart} />
         </ButtonBadge>
-        <ButtonBadge value={34}>
-          <FontAwesomeIcon className='h-4 text-secdark mb-1.5' icon={faCartShopping} />
+        <ButtonBadge value={3}>
+          <FontAwesomeIcon className='h-3 text-secdark mb-3' icon={faCartShopping} />
         </ButtonBadge>
         <Link href='#search'>
-          <FontAwesomeIcon className='h-4 text-secdark mb-1.5' icon={faMagnifyingGlass} />
+          <FontAwesomeIcon className='h-3 text-secdark mb-3' icon={faMagnifyingGlass} />
         </Link>
       </div>
     </nav>
