@@ -3,15 +3,16 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import primaryLogo from '../../public/main/logo.png';
-import secLogo from '../../public/main/logo(1).png';
+import primaryLogo from '@/app/images/logo.png';
+import secLogo from '@/app/images/logo(1).png';
 import './globals.css';
-import { francois_one, quicksand } from '../fonts/fonts';
-import Nav from '@/components/Nav';
+import { francois_one, quicksand } from '@/app/fonts/fonts';
+import Nav from '@/app/components/Nav';
 
 export const metadata = {
   title: "KIDS 'R' US" ,
   description: "Kid's articles e-commerce",
+  creator: 'Adrian Burgos',
 }
 
 export default function RootLayout({
@@ -32,7 +33,7 @@ export default function RootLayout({
         {children}
         <footer 
           className='relative w-full flex justify-center items-center h-96' 
-          style={{backgroundImage: `url(/main/home_footer.png)`}}
+          style={{backgroundImage:`url(/main/home_footer.png)`}}
         >
           <div className='flex flex-col justify-center items-center h-full'>
             <header className='py-7'>
