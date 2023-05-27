@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="">
-      <p>Hola Mundo</p>
+    <main className="grow">
+      <p className=''></p>
     </main>
   )
 }
