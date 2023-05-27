@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faMagnifyingGlass, faHeart, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,6 +7,7 @@ import primaryLogo from '../../public/main/logo.png';
 import secLogo from '../../public/main/logo(1).png';
 import './globals.css';
 import { francois_one, quicksand } from '../fonts/fonts';
+import Nav from '@/components/Nav';
 
 export const metadata = {
   title: "KIDS 'R' US" ,
@@ -27,19 +28,7 @@ export default function RootLayout({
         <header className='p-6 flex justify-center'>
           <Image width={215} height={71} src={primaryLogo} alt='KIDSRUS PRIMARY LOGO'/>
         </header>
-        <nav className={`text-primary flex justify-center items-center gap-6 text-[0.75rem] ${francois_one.className}`}>
-          <Link href='#notop'>HOME</Link>
-          <Link href='#notop'>SHOP FEATURES</Link>
-          <Link href='#notop'>CLOTHES</Link>
-          <Link href='#notop'>PAGES</Link>
-          <Link href='#notop'>SHORT CODES</Link>
-          <Link href='#notop'>POST TYPES</Link>
-          <div className='flex gap-4'>
-            <FontAwesomeIcon className='h-4 text-secdark' icon={faHeart} />
-            <FontAwesomeIcon className='h-4 text-secdark' icon={faCartShopping} />
-            <FontAwesomeIcon className='h-4 text-secdark' icon={faMagnifyingGlass} />
-          </div>
-        </nav>
+        <Nav />
         {children}
         <footer 
           className='relative w-full flex justify-center items-center h-96' 
@@ -75,8 +64,8 @@ export default function RootLayout({
         </footer>
         <Link href='#home'>
           <div className='fixed bottom-10 right-10 bg-background opacity-50 hover:opacity-100 transition-all p-1'>
-            <div className='border-2 border-dashed border-white p-3'>
-              <FontAwesomeIcon className='h-3 text-white' icon={faChevronUp}/>
+            <div className='flex justify-center items-center border-2 border-dashed border-white p-3'>
+              <FontAwesomeIcon className='h-3 w-3 text-white' icon={faChevronUp}/>
             </div>
           </div>
         </Link>
