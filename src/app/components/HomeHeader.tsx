@@ -12,6 +12,7 @@ export default function HomeHeader() {
         <div className={`p-10 z-10 relative text-white ${francois_one.className}`}>
           <h2 className='p-0 -mb-2 text-4xl'>JUMPSUITS</h2>
           <p className={`py-3 text-[0.7rem] ${quicksand.className}`}>Comfortable clothes for your little babies</p>
+          {/*change this button for a Link*/}
           <button 
             className='ml-1 mt-1 px-5 py-1 bg-white outline-4 outline outline-white border-[0.13rem] border-primary border-dashed text-[0.65rem] text-primary'
           >
