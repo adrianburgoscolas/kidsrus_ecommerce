@@ -63,12 +63,8 @@ export default function RootLayout({
             All Rights Reserved
           </p>
         </footer>
-        <Link href='#home'>
-          <div className='fixed bottom-10 right-10 bg-background opacity-50 hover:opacity-100 transition-all p-1'>
-            <div className='flex justify-center items-center border-2 border-dashed border-white p-3'>
+        <Link href='#home' className='border-2 border-dashed border-white outline outline-4 outline-background fixed bottom-10 right-10 bg-background opacity-50 hover:opacity-100 transition-all p-2'>
               <FontAwesomeIcon className='h-3 w-3 text-white' icon={faChevronUp}/>
-            </div>
-          </div>
         </Link>
       </body>
     </html>
