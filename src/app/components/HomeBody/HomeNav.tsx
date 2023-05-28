@@ -8,23 +8,25 @@ import { quicksand } from '@/app/fonts/fonts';
 
 export default function HomeNav() {
   return (
-    <nav className={`flex justify-around border-2 border-dotted h-56 w-full my-12 text-[0.6rem] font-bold text-primary ${quicksand.className}`}>
-      <div className='cursor-pointer flex flex-col gap-4 justify-center'>
-        <Image width={105} src={baby} alt='Baby Category'/>
-        <p className='text-center'>Baby & Toddler</p>
-      </div>
-      <div className='cursor-pointer flex flex-col gap-4 justify-center'>
-        <Image width={105} src={girl} alt='Girls Category'/>
-        <p className='text-center'>For Girls</p>
-      </div>
-      <div className='cursor-pointer flex flex-col gap-4 justify-center'>
-        <Image width={105} src={boy} alt='Boys Category'/>
-        <p className='text-center'>For Boys</p>
-      </div>
-      <div className='cursor-pointer flex flex-col gap-4 justify-center'>
-        <Image width={105} src={toys} alt='Toys Category'/>
-        <p className='text-center'>Home & Toys</p>
-      </div>
+    <nav>
+      <ul className={`flex justify-around border-2 border-dotted h-56 w-full my-12 text-[0.6rem] font-bold text-primary ${quicksand.className}`}>
+        <li className='cursor-pointer flex flex-col gap-4 justify-center'>
+          <Image width={105} src={baby} alt='Baby Category'/>
+          <p className='text-center'>Baby & Toddler</p>
+        </li>
+        <li className='cursor-pointer flex flex-col gap-4 justify-center'>
+          <Image width={105} src={girl} alt='Girls Category'/>
+          <p className='text-center'>For Girls</p>
+        </li>
+        <li className='cursor-pointer flex flex-col gap-4 justify-center'>
+          <Image width={105} src={boy} alt='Boys Category'/>
+          <p className='text-center'>For Boys</p>
+        </li>
+        <li className='cursor-pointer flex flex-col gap-4 justify-center'>
+          <Image width={105} src={toys} alt='Toys Category'/>
+          <p className='text-center'>Home & Toys</p>
+        </li>
+      </ul>
     </nav>
   );
 }
