@@ -1,10 +1,11 @@
 import HomeHeader from '@/app/components/HomeHeader';
+import HomeNav from '@/app/components/HomeNav';
 
 export default function Home() {
   return (
-    <main className='grow w-[52rem] mt-10 mx-auto'>
+    <main className='grow w-[49rem] mt-10 mx-auto'>
       <HomeHeader />
-      <nav></nav>
+      <HomeNav />
       <aside></aside>
       <section></section>
       <footer></footer>

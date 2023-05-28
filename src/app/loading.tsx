@@ -6,7 +6,9 @@ export default function Loading() {
 
   return (
     <main className='grow'>
-      <Image className='w-full mx-auto' src={Loader} alt='Loader'/>
+      <div className='w-full mx-auto'>
+      <Image width={50} height={50} src={Loader} alt='Loader'/>
+      </div>
     </main>
   );
 }

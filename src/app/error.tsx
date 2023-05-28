@@ -1,5 +1,6 @@
 'use client'; // Error components must be Client Components
  
+import { francois_one } from "@/app/fonts/fonts"
 import { useEffect } from 'react';
  
 export default function Error({
@@ -15,7 +16,7 @@ export default function Error({
   }, [error]);
  
   return (
-    <div>
+    <div className={`text-center text-primary ${francois_one.className}`}>
       <h2>Something went wrong!</h2>
       <button
         onClick={
