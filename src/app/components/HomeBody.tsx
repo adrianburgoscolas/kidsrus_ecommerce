@@ -12,8 +12,8 @@ export default function HomeBody({children}:{children: React.ReactNode}) {
   return (
     <div className=''>
       <HomeNav />
-      <h2 className='pb-10 flex flex-col justify-center items-center'>
-        <div className={`text-center text-primary text-xl tracking-wider ${francois_one.className}`}>NEW ARRIVALS</div>
+      <h2 className='pb-8 flex flex-col justify-center items-center'>
+        <div className={`mb-1 text-center text-primary text-xl tracking-wider ${francois_one.className}`}>NEW ARRIVALS</div>
         <Image width={50} src={active} alt='Avtive Indivation' />
       </h2>
       <div className='w-full h-[70rem] flex gap-8'>
