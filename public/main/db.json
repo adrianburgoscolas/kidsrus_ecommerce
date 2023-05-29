@@ -3,7 +3,7 @@
 		"name": " Brown Rompers",
 		"price": "83.15",
 		"stock": "true",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"rompers","baby"
 		],
@@ -23,7 +23,7 @@
 		"name": "Pink Pajamas T-shirt",
 		"price": "53.61",
 		"stock": "true",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"pajama","baby"
 		],
@@ -43,7 +43,7 @@
 		"name": "Baby overall",
 		"price": "34.58",
 		"stock": "false",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"overall","baby"
 		],
@@ -63,7 +63,7 @@
 		"name": "Baby Blouse",
 		"price": "96.06",
 		"stock": "true",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"baby","blouse"
 		],
@@ -83,7 +83,7 @@
 		"name": "Gray Pajamas T-shirt",
 		"price": "5.3",
 		"stock": "false",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"pajama","baby"
 		],
@@ -103,7 +103,7 @@
 		"name": "Light Grey Rompers",
 		"price": "50.72",
 		"stock": "false",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"rompers","baby"
 		],
@@ -123,7 +123,7 @@
 		"name": "Pink Girls Shoes",
 		"price": "97.1",
 		"stock": "false",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"shoes","baby","girl"
 		],
@@ -143,7 +143,7 @@
 		"name": "Brown Dotted T-shirt",
 		"price": "12.4",
 		"stock": "true",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"t-shirt","baby"
 		],
@@ -163,7 +163,7 @@
 		"name": "Baby Winter Jacket",
 		"price": "20.33",
 		"stock": "false",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"jacket","winter","baby"
 		],
@@ -183,7 +183,7 @@
 		"name": "Girl Boots",
 		"price": "13.47",
 		"stock": "true",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"boots","girl"
 		],
@@ -203,7 +203,7 @@
 		"name": "Dino's T-shirt",
 		"price": "100.95",
 		"stock": "false",
-		"category": "baby",
+		"category": "babies",
 		"tags": [
 			"t-shirt","boy"
 		],
@@ -223,7 +223,7 @@
 		"name": "Blue Shirt Long Sleeve",
 		"price": "61.65",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"shirt","boy"
 		],
@@ -236,14 +236,14 @@
 		"rate": "1",
 		"sku": "82606401460977630037615252393416",
 		"images": [
-			"/boys/boys-1-1-580x870.jpg","/boy/boys-1-580x870.jpg"
+			"/boys/boys-1-1-580x870.jpg","/boys/boys-1-580x870.jpg"
 		]
 	},
 	{
 		"name": "Lines Long Sleeve T-shirt",
 		"price": "81.7",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"boy","lines","sleeve"
 		],
@@ -263,7 +263,7 @@
 		"name": "Lines Long Sleeve T-shirt",
 		"price": "61.92",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"boy","lines","sleeve"
 		],
@@ -283,7 +283,7 @@
 		"name": "Short Sleeve T-shirt",
 		"price": "88.65",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"t-shirt","boy"
 		],
@@ -303,7 +303,7 @@
 		"name": "Boy's Jacket",
 		"price": "35.85",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"jacket","boy"
 		],
@@ -323,7 +323,7 @@
 		"name": "Boy's Shorts",
 		"price": "62.87",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"shorts","boy","summer"
 		],
@@ -343,7 +343,7 @@
 		"name": "Shirt Long Sleeve",
 		"price": "6.8",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"shirt","boy","sleeve"
 		],
@@ -363,7 +363,7 @@
 		"name": "Boy's Jumper",
 		"price": "63.84",
 		"stock": "false",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"jumper","boy"
 		],
@@ -383,7 +383,7 @@
 		"name": "Boy's Short",
 		"price": "3.75",
 		"stock": "true",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"short","boy"
 		],
@@ -403,7 +403,7 @@
 		"name": "Boy's Shirt Long Sleeve",
 		"price": "26.47",
 		"stock": "false",
-		"category": "boy",
+		"category": "boys",
 		"tags": [
 			"shirt","boy","sleeve"
 		],
@@ -423,7 +423,7 @@
 		"name": "Girl's Dress Long Sleeve",
 		"price": "46.81",
 		"stock": "false",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","sleeve","dress"
 		],
@@ -443,7 +443,7 @@
 		"name": "Blue Blouse",
 		"price": "44.75",
 		"stock": "false",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"blouse","girl"
 		],
@@ -463,7 +463,7 @@
 		"name": "Girl's Jacket",
 		"price": "55.47",
 		"stock": "true",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","jacket"
 		],
@@ -483,7 +483,7 @@
 		"name": "Lines Dress No Sleeve",
 		"price": "46.2",
 		"stock": "false",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","dress"
 		],
@@ -503,7 +503,7 @@
 		"name": "Short Sleeve Dress",
 		"price": "60",
 		"stock": "true",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","dress"
 		],
@@ -523,7 +523,7 @@
 		"name": "Girl Hoodie",
 		"price": "35.4",
 		"stock": "true",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","hoodie"
 		],
@@ -536,14 +536,14 @@
 		"rate": "2",
 		"sku": "56794612833966548354867750750876",
 		"images": [
-			"/girls/girls-7-1-580x870.jpg","girls/girls-6-2-580x870.jpg"
+			"/girls/girls-7-1-580x870.jpg","/girls/girls-6-2-580x870.jpg"
 		]
 	},
 	{
 		"name": "Girl's Dress Long Sleeve",
 		"price": "26.66",
 		"stock": "false",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","dress","sleeve"
 		],
@@ -563,7 +563,7 @@
 		"name": "Light Blouse",
 		"price": "34.76",
 		"stock": "true",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","blouse"
 		],
@@ -583,7 +583,7 @@
 		"name": "Dark Blouse",
 		"price": "34.59",
 		"stock": "false",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","blouse"
 		],
@@ -603,7 +603,7 @@
 		"name": "Brown Pants",
 		"price": "58.57",
 		"stock": "false",
-		"category": "girl",
+		"category": "girls",
 		"tags": [
 			"girl","pants"
 		],
