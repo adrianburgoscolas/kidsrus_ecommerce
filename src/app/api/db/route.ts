@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
    
     if(!DB_DATA.data || DB_DATA.expireAt <= new Date().getTime()) {
       DB_DATA.data = data.map((obj:Product) => {
-        const stock = Math.random() * 2 === 1;
+        const stock = Math.round(Math.random() * 1) === 1;
         const rate = Math.round(Math.random() * 5);
         return ({
           ...obj,
