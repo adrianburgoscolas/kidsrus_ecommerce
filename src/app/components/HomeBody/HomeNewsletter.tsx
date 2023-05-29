@@ -2,7 +2,7 @@ import { francois_one, gilda } from "@/app/fonts/fonts";
 export default function HomeNewsletter() {
   return (
     <form className='mt-9 bg-background px-5 h-52 flex flex-col justify-center items-center text-center'>
-      <label className={`${gilda.className} text-2xl text-white grow flex items-center`} for='newsletter'><span>Join Our Newsletter</span></label>
+      <label className={`${gilda.className} text-2xl text-white grow flex items-center`} htmlFor='newsletter'><span>Join Our Newsletter</span></label>
       <input 
         name='newsletter'
         id='newsletter'

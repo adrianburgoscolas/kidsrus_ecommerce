@@ -13,6 +13,8 @@ export default function Home() {
       {/*Client Component*/}
       <HomeBody>
         {/*Server Component*/}
+
+        {/* @ts-expect-error Async Server Component */}
         <HomeBestSellers />
       </HomeBody>
 
