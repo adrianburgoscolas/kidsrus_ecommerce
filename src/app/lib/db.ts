@@ -21,6 +21,22 @@ class Db {
     bestRates.splice(4);
     return bestRates;
   }
+
+  async categories() {
+    const data = await this.getData();
+    const dataArry: Product[] = data.data
+    const categories = {
+      home: 0,
+      play: 0,
+      boys: 0,
+      girls: 0,
+      babies: 0,
+    };
+    for(let i = 0; i < dataArry.length; i++) {
+      categories[dataArry[i].category]++;
+    }
+    return categories;
+  }
 }
 
 export default new Db(getData);
