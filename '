@@ -14,7 +14,7 @@ export default function HomeCategories({categories, handleCategories}: {categori
   return (
     <section>
       <h2 className={`text-primary text-lg mb-4 mt-9 ${francois_one.className}`}>CATEGORIES</h2>
-      <ul className='divide-y text-[0.7rem] p-3 border-2 border-dotted min-h-[8rem]'>
+      <ul className='divide-y text-[0.7rem] p-3 py-4 border-2 border-dotted min-h-[8rem]'>
         {list}
       </ul>
     </section>

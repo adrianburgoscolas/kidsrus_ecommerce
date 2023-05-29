@@ -12,10 +12,10 @@ export const revalidate = 60 * 10;
 
 export default async function HomeBestSellers() {
 
-  const bestSeller = await db.bestSeller();
+  const bestSellerData = await db.bestSeller();
 
-  const list = bestSeller.map((product:Product) => 
-    <li className='p-3 h-full' key={product.sku}>
+  const list = bestSellerData.map((product:Product) => 
+    <li className='p-2 h-full' key={product.sku}>
       <div className='flex'>
         <div className='rounded-full w-12 h-12 overflow-hidden'>
         <Image 
