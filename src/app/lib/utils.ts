@@ -2,7 +2,7 @@ export type Product = {
   name: string,
   price: string,
   stock: boolean,
-  category: 'home'|'boy'|'girl'|'play'|'baby',
+  category: 'home'|'boys'|'girls'|'play'|'babies',
   tags: string[],
   description: string,
   info: {
@@ -14,3 +14,8 @@ export type Product = {
   sku:string,
   images:string[],
 }
+
+export type Categories = {
+  [index:string]:number,
+}
+
