@@ -305,7 +305,7 @@
 		"stock": "true",
 		"category": "boys",
 		"tags": [
-			"jacket","boy"
+			"jacket","boy","winter"
 		],
 		"description": "Curabitur rutrum elementum enim, in vehicula augue pretium quis. Nam lacinia risus nisi, ac elementum arcu gravida vel. Nulla facilisi. Donec quam tortor, pharetra a suscipit a, tristique eu mi. Nullam ut purus eu libero egestas viverra non rutrum elit. Integer auctor purus neque, faucibus tincidunt nulla eleifend ac. Fusce varius dignissim congue.",
 		"info": {
@@ -316,7 +316,7 @@
 		"rate": "0",
 		"sku": "04711909976126118778165513400266",
 		"images": [
-			"jacket","boy","winter"
+			"/boys/boys-5-1-580x870.jpg","/boys/boys-5-580x870.jpg"
 		]
 	},
 	{
