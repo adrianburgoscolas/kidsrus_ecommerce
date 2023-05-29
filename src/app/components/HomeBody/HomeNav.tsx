@@ -22,7 +22,7 @@ export default function HomeNav({handleCategories}:{handleCategories: Function})
           <Image width={105} src={boy} alt='Boys Category'/>
           <p className='text-center'>For Boys</p>
         </li>
-        <li onClick={_ => handleCategories("toys")} className='cursor-pointer flex flex-col gap-4 justify-center'>
+        <li onClick={_ => handleCategories("home")} className='cursor-pointer flex flex-col gap-4 justify-center'>
           <Image width={105} src={toys} alt='Toys Category'/>
           <p className='text-center'>Home & Toys</p>
         </li>

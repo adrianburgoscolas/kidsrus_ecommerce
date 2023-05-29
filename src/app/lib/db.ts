@@ -7,6 +7,7 @@ async function getData() {
   return res.json();
 }
 
+//DB(db mock) handler
 class Db {
   
   private getData: Function;
@@ -15,6 +16,7 @@ class Db {
     this.getData = getData;
   }
 
+  //Return the best 4 rated products
   async bestSeller() {
     let data = await this.getData();
     const bestRates = data.data.sort((a:Product, b:Product) => b.rate - a.rate);
@@ -22,6 +24,7 @@ class Db {
     return bestRates;
   }
 
+  //Return the number of items in every category
   async categories() {
     const data = await this.getData();
     const dataArry: Product[] = data.data
@@ -32,10 +35,29 @@ class Db {
       girls: 0,
       babies: 0,
     };
+
     for(let i = 0; i < dataArry.length; i++) {
       categories[dataArry[i].category]++;
     }
+
     return categories;
+  }
+
+  //Return nine random products
+  async randomResults() {
+    const data = await this.getData();
+    const resultArry: Product[] | undefined = [];
+
+    for(let i = 0; i < 9; i++) {
+      resultArry.push(data.data[Math.round(Math.random() * (data.data.length - 1))]);
+    }
+
+    return resultArry;
+  }
+
+  async category(category: string) {
+    const data = await this.getData();
+    return data.data.filter((obj: Product) => obj.category === category);
   }
 }
 
