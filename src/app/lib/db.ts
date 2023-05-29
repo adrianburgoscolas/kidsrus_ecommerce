@@ -43,13 +43,18 @@ class Db {
     return categories;
   }
 
-  //Return nine random products
+  //Return nine different random products
   async randomResults() {
     const data = await this.getData();
     const resultArry: Product[] | undefined = [];
 
-    for(let i = 0; i < 9; i++) {
-      resultArry.push(data.data[Math.round(Math.random() * (data.data.length - 1))]);
+    const arr = [];
+    while(arr.length < 9) {
+      const randomIndex = Math.round(Math.random() * (data.data.length - 1));
+      if(arr.indexOf(randomIndex) === -1) {
+        arr.push(randomIndex);
+        resultArry.push(data.data[randomIndex]);
+      }
     }
 
     return resultArry;
