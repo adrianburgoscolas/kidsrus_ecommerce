@@ -67,7 +67,7 @@ belonging to the same category.
 ### Link
 
 - Solution URL: [Solution URL](https://github.com/adrianburgoscolas/kidsrus_ecommerce)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://kidsrus-ecommerce-swqx.vercel.app/)
 
 ## My process
 
@@ -89,7 +89,7 @@ belonging to the same category.
 
 #### Live
 
-- Go to live url: [Add live site URL here](https://your-live-site-url.com)
+- Go to live url: [Live Site](https://kidsrus-ecommerce-swqx.vercel.app/)
 
 ## Author
 
