@@ -40,14 +40,14 @@ export default function HomeSearchResult({images, category, name, price, stock, 
           className={`absolute`}
           width={380} 
           height={600} 
-          src={`${process.env.NEXT_PUBLIC_BASE_URL}${images[0]}`} 
+          src={`${images[0]}`} 
           alt={name}
         />
         <Image 
           className={`${show && 'opacity-100'} absolute opacity-0 duration-700`}
           width={380} 
           height={600} 
-          src={`${process.env.NEXT_PUBLIC_BASE_URL}${images[1]}`} 
+          src={`${images[1]}`} 
           alt={name}
         />
         <HomeSearchResultAddToCart show={show} stock={stock} />

@@ -22,7 +22,7 @@ export default async function HomeBestSellers() {
           className='object-none object-center' 
           width={48} 
           height={60}
-          src={`${process.env.NEXT_PUBLIC_BASE_URL}${product.images[1]}`} alt={product.name} 
+          src={`${product.images[1]}`} alt={product.name} 
         />
         </div>
         <div className='flex flex-col gap-1 ml-3 text-[0.7rem] text-primary font-bold'>

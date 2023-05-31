@@ -35,7 +35,7 @@ export default function ProductImage({images,stock}:{images: string[],stock:numb
                 width={875} 
                 height={750} 
                 alt='Product Main Image' 
-                src={`${process.env.NEXT_PUBLIC_BASE_URL}${images[mainImage]}`} 
+                src={`${images[mainImage]}`} 
               />
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function ProductImage({images,stock}:{images: string[],stock:numb
             width={375} 
             height={750} 
             alt='Product Main Image' 
-            src={`${process.env.NEXT_PUBLIC_BASE_URL}${images[mainImage]}`} 
+            src={`${images[mainImage]}`} 
           />
         </div>
       </div>
@@ -65,14 +65,14 @@ export default function ProductImage({images,stock}:{images: string[],stock:numb
           width={40} 
           height={80} 
           alt='Product Image' 
-          src={`${process.env.NEXT_PUBLIC_BASE_URL}${images[0]}`} 
+          src={`${images[0]}`} 
           onClick={_ => setMainImage(0)}
         />
         <Image 
           width={40} 
           height={80} 
           alt='Product Image' 
-          src={`${process.env.NEXT_PUBLIC_BASE_URL}${images[1]}`} 
+          src={`${images[1]}`} 
           onClick={_ => setMainImage(1)}
         />
       </div>
