@@ -10,6 +10,12 @@ const DB_DATA = {
 };
  
 export async function GET(req: NextRequest) {
+  const requestHeaders = new Headers(req.headers)
+
+  requestHeaders.set("Access-Control-Allow-Origin", "*")
+  requestHeaders.set('Access-Control-Allow-Methods', 'GET, OPTIONS')
+  requestHeaders.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+
   const res = await fetch(new URL('/main/db.json', req.url), {cache: 'no-store'});
     const data = await res.json();
    
