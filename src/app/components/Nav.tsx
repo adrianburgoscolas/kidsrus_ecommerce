@@ -42,12 +42,12 @@ export default function Nav() {
         <li>
           <div className='flex gap-4'>
             <ButtonBadge value={0}>
-              <FontAwesomeIcon className='h-3 text-secdark mb-3' icon={faHeart} />
+              <FontAwesomeIcon title='Wish List' className='h-3 text-secdark mb-3' icon={faHeart} />
             </ButtonBadge>
             <ButtonBadge value={3}>
-              <FontAwesomeIcon className='h-3 text-secdark mb-3' icon={faCartShopping} />
+              <FontAwesomeIcon title='Shoping Cart' className='h-3 text-secdark mb-3' icon={faCartShopping} />
             </ButtonBadge>
-            <Link href='#search'>
+            <Link title='Search Product' href='#search'>
               <FontAwesomeIcon className='h-3 text-secdark mb-3' icon={faMagnifyingGlass} />
             </Link>
           </div>
