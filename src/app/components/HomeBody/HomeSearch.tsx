@@ -21,7 +21,7 @@ export default function HomeSearch({setKeyword}:{setKeyword: Function}) {
         type='text' 
         placeholder='Search products...'
       />
-      <button title='Search Product' onClick={handleSubmit} className='flex-none bg-background w-10 h-10 flex justify-center items-center'>
+      <button title='Search Produc' onClick={handleSubmit} className='flex-none bg-background w-10 h-10 flex justify-center items-center'>
         <div className='w-8 h-8 border-2 border-dashed flex justify-center items-center'>
         <FontAwesomeIcon className='text-seclight w-3 h-3' icon={faMagnifyingGlass} />
         </div>

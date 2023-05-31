@@ -5,6 +5,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Performance](#perfermance)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -50,6 +51,10 @@ b) Page no. 2: Product Page This page contains the characteristics of a particul
 ### Screenshot
 
 ![](./screenshot.jpg)
+
+### Performance
+
+![](./performace.png)
 
 ### Links
 
