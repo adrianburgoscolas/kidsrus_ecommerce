@@ -51,7 +51,7 @@ b) Page no. 2: Product Page This page contains the characteristics of a particul
 
 ![](./screenshot.jpg)
 
-### Link
+### Links
 
 - Solution URL: [Solution URL](https://github.com/adrianburgoscolas/kidsrus_ecommerce)
 - Live Site URL: [Live Site](https://kidsrus-ecommerce-swqx.vercel.app/)
