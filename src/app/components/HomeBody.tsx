@@ -11,7 +11,6 @@ import useHome from './HomeHooks/useHome';
 import type { Product } from '@/app/lib/utils';
 import { francois_one } from '@/app/fonts/fonts';
 import active from '@/app/images/home-8.png'
-import {useEffect} from 'react';
 
 export default function HomeBody({children,category}:{children: React.ReactNode,category:string[]}) {
 

@@ -8,7 +8,7 @@ export default function HomeHeader() {
   return (
     <header className='flex gap-10 h-[22rem]'>
       <article className='flex flex-col justify-end z-10 relative w-[32.5rem]'>
-        <Image className='z-0 absolute top-0' width={520} src={slider1} alt='Slider 1'/>
+        <Image className='z-0 absolute top-0' width={520} src={slider1} alt='Discover' priority/>
         <div className={`p-10 z-10 relative text-white ${francois_one.className}`}>
           <h2 className='p-0 -mb-2 text-4xl'>JUMPSUITS</h2>
           <p className={`py-3 text-[0.7rem] ${quicksand.className}`}>Comfortable clothes for your little babies</p>
