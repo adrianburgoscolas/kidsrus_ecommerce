@@ -17,6 +17,22 @@ export const revalidate = 300; // revalidate this page every 10 seconds
 export default async function Product({params}:{params:{id: string}}) {
   const { id } = params;
   const product: Product = await db.product(id);
+  if(!product) {
+  return (
+    <main className='grow'>
+      <header className='border-2 border-dotted max-w-[100rem] h-36 mx-auto flex flex-col justify-center items-center'>
+        <h2 className={`text-3xl text-primary ${gilda.className}`}>Wrong Product SKU</h2>
+        <p className='text-xs text-primary font-bold mt-3'>
+          <Link href='/'>
+            Home
+          </Link> : <Link className="text-background" href={`/search`}>
+            Search
+          </Link>
+        </p>
+      </header>
+    </main>
+  );
+  }
 
   return (
     <main className='grow'>

@@ -53,25 +53,27 @@ export default function HomeBody({children,category}:{children: React.ReactNode,
           <HomeNewsletter />
         </aside>
         <section className='flex-1 w-2/3'>
-          <ul className='grid grid-cols-3 gap-5 w-full'>
+          { searchResult.length <= 0?
+            <p className={`${francois_one.className} text-primary w-full text-center`}>NO RESULTS, PLEASE TRY AGAIN...</p>:
+            <ul className='grid grid-cols-3 gap-5 w-full'>
             {
               searchResult.map((obj: Product, i: number) =>
-                   <li key={obj.sku + i} className='w-fit'>
-                     <HomeSearchResult 
-                       sku={obj.sku}
-                       images={obj.images} 
-                       name={obj.name} 
-                       category={obj.category} 
-                       price={obj.price} 
-                       stock={obj.stock} 
-                     />
-                   </li>
-                  )
-              .splice(pageNum * 9, 9)
+              <li key={obj.sku + i} className='w-fit'>
+              <HomeSearchResult 
+                sku={obj.sku}
+                images={obj.images} 
+                name={obj.name} 
+                category={obj.category} 
+                price={obj.price} 
+                stock={obj.stock} 
+              />
+              </li>
+                              )
+                              .splice(pageNum * 9, 9)
             }
-          </ul>
+              </ul>
+          }
         </section>
       </div>
-    </div>
-  );
+    </div>);
 }
