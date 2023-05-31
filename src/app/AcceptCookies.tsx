@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 export default function AcceptCookies() {
   const [show, setShow] = useState(false);
   useEffect(() => {
-    const timeout = setTimeout(() => setShow(true),3000);
+    const timeout = setTimeout(() => setShow(true),2000);
     return () => {
       clearTimeout(timeout);
     };

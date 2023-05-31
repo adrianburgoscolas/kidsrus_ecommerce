@@ -12,7 +12,7 @@ import ProductAddToCart from './ProductAddToCart';
 import ProductInfo from "./ProductInfo";
 import ProductFooter from "./ProductFooter";
 
-export const revalidate = 60 * 5; // revalidate this page every 10 seconds
+export const revalidate = 300; // revalidate this page every 10 seconds
 
 export default async function Product({params}:{params:{id: string}}) {
   const { id } = params;
