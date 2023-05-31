@@ -10,7 +10,7 @@ const DB_DATA = {
 };
  
 export async function GET(req: NextRequest) {
-  const res = await fetch(new URL('/main/db.json', req.url), {cache: 'no-store'});
+  const res = await fetch(new URL('/main/db.json', req.url), { next: { revalidate: 10 }});
   const data = await res.json();
  
   if(!DB_DATA.data || DB_DATA.expireAt <= new Date().getTime()) {

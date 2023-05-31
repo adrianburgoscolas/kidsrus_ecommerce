@@ -7,6 +7,7 @@ import db from '@/app/lib/db';
 import { Product } from '@/app/lib/utils';
 import HomeSearchResult from '@/app/components/HomeBody/HomeSearchResult';import Rate from '@/app/components/Rate';
 
+export const revalidate = 10; // revalidate this page every 10 seconds
 
 export default async function ProductFooter({productId}:{productId:string}) {
 
