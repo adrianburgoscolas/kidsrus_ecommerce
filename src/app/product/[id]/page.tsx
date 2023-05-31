@@ -12,6 +12,8 @@ import ProductAddToCart from './ProductAddToCart';
 import ProductInfo from "./ProductInfo";
 import ProductFooter from "./ProductFooter";
 
+export const revalidate = 10; // revalidate this page every 60 seconds
+
 export default async function Product({params}:{params:{id: string}}) {
   const { id } = params;
   const product: Product = await db.product(id);

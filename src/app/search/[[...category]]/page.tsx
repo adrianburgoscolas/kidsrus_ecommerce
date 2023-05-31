@@ -5,6 +5,8 @@ import HomeFooter from '@/app/components/HomeFooter';
 import HomeBestSellers from '@/app/components/HomeBody/HomeBestSellers';
 import AcceptCookies from '@/app/AcceptCookies';
 
+export const revalidate = 10; // revalidate this page every 60 seconds
+
 export default function Home({params}:{params:{category:string}}) {
 
   const category = params.category || '';
