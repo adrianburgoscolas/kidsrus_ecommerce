@@ -3,7 +3,6 @@ import HomeHeader from '@/app/components/HomeHeader';
 import HomeBody from '@/app/components/HomeBody';
 import HomeFooter from '@/app/components/HomeFooter';
 import HomeBestSellers from '@/app/components/HomeBody/HomeBestSellers';
-import AcceptCookies from '@/app/AcceptCookies';
 
 export const revalidate = 300; // revalidate this page every 5min
 
@@ -26,7 +25,6 @@ export default function Search({params}:{params:{category:string[]}}) {
 
       {/*Server Component*/}
       <HomeFooter />
-      <AcceptCookies />
     </main>
   )
 }

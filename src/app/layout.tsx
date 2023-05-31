@@ -8,6 +8,7 @@ import secLogo from '@/app/images/logo(1).png';
 import './globals.css';
 import { francois_one, quicksand } from '@/app/fonts/fonts';
 import Nav from '@/app/components/Nav';
+import AcceptCookies from '@/app/AcceptCookies';
 
 export const metadata = {
   title: "KIDS 'R' US" ,
@@ -90,6 +91,7 @@ export default function RootLayout({
           className='flex justify-center items-center outline-dashed outline-2 outline-white -outline-offset-[7px] fixed bottom-20 right-10 bg-background opacity-50 hover:opacity-100 transition-all p-4'>
               <FontAwesomeIcon className='h-3 w-3 text-white' icon={faChevronUp}/>
         </Link>
+      <AcceptCookies />
       </body>
     </html>
   )
