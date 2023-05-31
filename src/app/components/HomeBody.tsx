@@ -13,12 +13,12 @@ import { francois_one } from '@/app/fonts/fonts';
 import active from '@/app/images/home-8.png'
 import {useEffect} from 'react';
 
-export default function HomeBody({children,category}:{children: React.ReactNode,category:string|undefined}) {
+export default function HomeBody({children,category}:{children: React.ReactNode,category:string[]}) {
 
   const { pages, pageNum, setPageNum, categories, searchResult, handleCategories, handleSearch } = useHome();
 
   useEffect(() => {
-    if(category) {
+    if(category[0]) {
       handleCategories(category[0]);
     }
   },[]);

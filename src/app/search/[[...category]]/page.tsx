@@ -5,11 +5,11 @@ import HomeFooter from '@/app/components/HomeFooter';
 import HomeBestSellers from '@/app/components/HomeBody/HomeBestSellers';
 import AcceptCookies from '@/app/AcceptCookies';
 
-export const revalidate = 60 * 5; // revalidate this page every 5min
+export const revalidate = 300; // revalidate this page every 5min
 
 export default function Search({params}:{params:{category:string}}) {
 
-  const category = params.category || '';
+  const { category } = params;
 
   return (
     <main className='grow w-[50rem] mt-10 mx-auto'>
@@ -18,8 +18,8 @@ export default function Search({params}:{params:{category:string}}) {
 
       {/*Client Component*/}
       <HomeBody category={category}>
-        {/*Server Component*/}
 
+        {/*Server Component*/}
         {/* @ts-expect-error Async Server Component */}
         <HomeBestSellers />
       </HomeBody>
