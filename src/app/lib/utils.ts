@@ -1,7 +1,7 @@
 export type Product = {
   name: string,
   price: string,
-  stock: boolean,
+  stock: number,
   category: 'home'|'boys'|'girls'|'play'|'babies',
   tags: string[],
   description: string,
@@ -19,3 +19,9 @@ export type Categories = {
   [index:string]:number,
 }
 
+export function toTitleCase(str: string): string {
+  if(!str) {
+    return '';
+  }
+  return str.split('')[0].toUpperCase() + str.slice(1);
+}

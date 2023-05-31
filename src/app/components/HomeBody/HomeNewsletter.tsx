@@ -6,7 +6,7 @@ export default function HomeNewsletter() {
 
   const [email, setEmail] = useState('');
 
-  function handleSubmit(e) {
+  function handleSubmit(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
     setEmail('');
   }

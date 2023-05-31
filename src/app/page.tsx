@@ -1,25 +1,27 @@
-//Server Component
-import HomeHeader from '@/app/components/HomeHeader';
-import HomeBody from '@/app/components/HomeBody';
-import HomeFooter from '@/app/components/HomeFooter';
-import HomeBestSellers from '@/app/components/HomeBody/HomeBestSellers';
+'use client'
+import {useRouter} from 'next/navigation';
+import {useEffect} from 'react';
+import {francois_one} from './fonts/fonts';
+import Image from 'next/image';
+
+import Loader from '@/app/images/loader.gif';
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const timeout = setTimeout(() => router.push('/search'), 3000);
+    return () => {
+      clearTimeout(timeout);
+    };
+  });
+
   return (
-    <main className='grow w-[49rem] mt-10 mx-auto'>
-      {/*Server Component*/}
-      <HomeHeader />
-
-      {/*Client Component*/}
-      <HomeBody>
-        {/*Server Component*/}
-
-        {/* @ts-expect-error Async Server Component */}
-        <HomeBestSellers />
-      </HomeBody>
-
-      {/*Server Component*/}
-      <HomeFooter />
-    </main>
-  )
+    <div className="grow">
+      <p className={`text-primary text-xl text-center  ${francois_one.className}`}>REDIRECTING TO SEARCH PAGE...</p>
+      <div className='w-full my-10 mx-auto flex justify-center'>
+      <Image width={50} height={50} src={Loader} alt='Loader'/>
+      </div>
+    </div>
+  );
 }

@@ -15,11 +15,14 @@ export default function Nav() {
 
   return (
     <nav 
-      className={`z-20 bg-white sticky top-0 p-4 text-primary text-[0.7rem] ${francois_one.className}`}
+      className={`z-30 bg-white sticky top-0 p-4 text-primary text-[0.7rem] ${francois_one.className}`}
     >
       <ul className='flex justify-center items-center gap-6'>
         <li>
           <NavLink linkText={'HOME'} />
+        </li>
+        <li>
+          <NavLink linkText={'SEARCH'} />
         </li>
         <li>
           <NavLink linkText={'SHOP FEATURES'} />

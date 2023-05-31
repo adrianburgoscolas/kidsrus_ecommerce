@@ -1,5 +1,6 @@
 'use client'; // Error components must be Client Components
  
+import { francois_one } from "@/app/fonts/fonts"
 import { useEffect } from 'react';
  
 export default function Error({
@@ -15,9 +16,10 @@ export default function Error({
   }, [error]);
  
   return (
-    <div>
+    <div className={`grow text-center text-primary ${francois_one.className}`}>
       <h2>Something went wrong!</h2>
       <button
+        className='mt-4 px-4 py-2 outline-white -outline-offset-[7px] outline-2 outline-dashed bg-background text-white'
         onClick={
           // Attempt to recover by trying to re-render the segment
           () => reset()

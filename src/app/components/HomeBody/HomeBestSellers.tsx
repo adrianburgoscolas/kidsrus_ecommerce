@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 import db from "@/app/lib/db";
 import { francois_one } from "@/app/fonts/fonts";
 import type { Product } from '@/app/lib/utils';
+import Rate from "../Rate";
+import PriceFormat from "../PriceFormat";
 
 //Revalidate this component every 10min
 export const revalidate = 60 * 10;
@@ -29,14 +29,8 @@ export default async function HomeBestSellers() {
           <Link href={`/product/${product.sku}`}>
             <h3>{product.name}</h3>
           </Link>
-          <div className='flex'>
-            <FontAwesomeIcon className={`h-3 w-3 ${product.rate > 0?'text-background':'text-seclight'}`} icon={faStar} />
-            <FontAwesomeIcon className={`h-3 w-3 ${product.rate > 1?'text-background':'text-seclight'}`} icon={faStar} />
-            <FontAwesomeIcon className={`h-3 w-3 ${product.rate > 2?'text-background':'text-seclight'}`} icon={faStar} />
-            <FontAwesomeIcon className={`h-3 w-3 ${product.rate > 3?'text-background':'text-seclight'}`} icon={faStar} />
-            <FontAwesomeIcon className={`h-3 w-3 ${product.rate > 4?'text-background':'text-seclight'}`} icon={faStar} />
-          </div>
-          <p className=''>${product.price}</p>
+          <p><PriceFormat price={product.price} /></p>
+          <Rate rate={product.rate}/>
         </div>
       </div>
     </li>

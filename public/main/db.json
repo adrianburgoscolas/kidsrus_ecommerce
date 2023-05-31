@@ -2,7 +2,7 @@
 	{
 		"name": " Brown Rompers",
 		"price": "83.15",
-		"stock": "true",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"rompers","baby"
@@ -22,7 +22,7 @@
 	{
 		"name": "Pink Pajamas T-shirt",
 		"price": "53.61",
-		"stock": "true",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"pajama","baby"
@@ -42,7 +42,7 @@
 	{
 		"name": "Baby overall",
 		"price": "34.58",
-		"stock": "false",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"overall","baby"
@@ -62,7 +62,7 @@
 	{
 		"name": "Baby Blouse",
 		"price": "96.06",
-		"stock": "true",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"baby","blouse"
@@ -82,7 +82,7 @@
 	{
 		"name": "Gray Pajamas T-shirt",
 		"price": "5.3",
-		"stock": "false",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"pajama","baby"
@@ -102,7 +102,7 @@
 	{
 		"name": "Light Grey Rompers",
 		"price": "50.72",
-		"stock": "false",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"rompers","baby"
@@ -122,7 +122,7 @@
 	{
 		"name": "Pink Girls Shoes",
 		"price": "97.1",
-		"stock": "false",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"shoes","baby","girl"
@@ -142,7 +142,7 @@
 	{
 		"name": "Brown Dotted T-shirt",
 		"price": "12.4",
-		"stock": "true",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"t-shirt","baby"
@@ -162,7 +162,7 @@
 	{
 		"name": "Baby Winter Jacket",
 		"price": "20.33",
-		"stock": "false",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"jacket","winter","baby"
@@ -182,7 +182,7 @@
 	{
 		"name": "Girl Boots",
 		"price": "13.47",
-		"stock": "true",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"boots","girl"
@@ -202,7 +202,7 @@
 	{
 		"name": "Dino's T-shirt",
 		"price": "100.95",
-		"stock": "false",
+		"stock": "",
 		"category": "babies",
 		"tags": [
 			"t-shirt","boy"
@@ -222,7 +222,7 @@
 	{
 		"name": "Blue Shirt Long Sleeve",
 		"price": "61.65",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"shirt","boy"
@@ -242,7 +242,7 @@
 	{
 		"name": "Lines Long Sleeve T-shirt",
 		"price": "81.7",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"boy","lines","sleeve"
@@ -262,7 +262,7 @@
 	{
 		"name": "Lines Long Sleeve T-shirt",
 		"price": "61.92",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"boy","lines","sleeve"
@@ -282,7 +282,7 @@
 	{
 		"name": "Short Sleeve T-shirt",
 		"price": "88.65",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"t-shirt","boy"
@@ -302,7 +302,7 @@
 	{
 		"name": "Boy's Jacket",
 		"price": "35.85",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"jacket","boy","winter"
@@ -322,7 +322,7 @@
 	{
 		"name": "Boy's Shorts",
 		"price": "62.87",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"shorts","boy","summer"
@@ -342,7 +342,7 @@
 	{
 		"name": "Shirt Long Sleeve",
 		"price": "6.8",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"shirt","boy","sleeve"
@@ -362,7 +362,7 @@
 	{
 		"name": "Boy's Jumper",
 		"price": "63.84",
-		"stock": "false",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"jumper","boy"
@@ -382,7 +382,7 @@
 	{
 		"name": "Boy's Short",
 		"price": "3.75",
-		"stock": "true",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"short","boy"
@@ -402,7 +402,7 @@
 	{
 		"name": "Boy's Shirt Long Sleeve",
 		"price": "26.47",
-		"stock": "false",
+		"stock": "",
 		"category": "boys",
 		"tags": [
 			"shirt","boy","sleeve"
@@ -422,7 +422,7 @@
 	{
 		"name": "Girl's Dress Long Sleeve",
 		"price": "46.81",
-		"stock": "false",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","sleeve","dress"
@@ -442,7 +442,7 @@
 	{
 		"name": "Blue Blouse",
 		"price": "44.75",
-		"stock": "false",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"blouse","girl"
@@ -462,7 +462,7 @@
 	{
 		"name": "Girl's Jacket",
 		"price": "55.47",
-		"stock": "true",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","jacket"
@@ -482,7 +482,7 @@
 	{
 		"name": "Lines Dress No Sleeve",
 		"price": "46.2",
-		"stock": "false",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","dress"
@@ -502,7 +502,7 @@
 	{
 		"name": "Short Sleeve Dress",
 		"price": "60",
-		"stock": "true",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","dress"
@@ -522,7 +522,7 @@
 	{
 		"name": "Girl Hoodie",
 		"price": "35.4",
-		"stock": "true",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","hoodie"
@@ -536,13 +536,13 @@
 		"rate": "2",
 		"sku": "56794612833966548354867750750876",
 		"images": [
-			"/girls/girls-7-1-580x870.jpg","/girls/girls-6-2-580x870.jpg"
+			"/girls/girls-7-1-580x870.jpg","/girls/girls-7-2-580x870.jpg"
 		]
 	},
 	{
 		"name": "Girl's Dress Long Sleeve",
 		"price": "26.66",
-		"stock": "false",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","dress","sleeve"
@@ -562,7 +562,7 @@
 	{
 		"name": "Light Blouse",
 		"price": "34.76",
-		"stock": "true",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","blouse"
@@ -582,7 +582,7 @@
 	{
 		"name": "Dark Blouse",
 		"price": "34.59",
-		"stock": "false",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","blouse"
@@ -602,7 +602,7 @@
 	{
 		"name": "Brown Pants",
 		"price": "58.57",
-		"stock": "false",
+		"stock": "",
 		"category": "girls",
 		"tags": [
 			"girl","pants"
@@ -622,7 +622,7 @@
 	{
 		"name": "Rainbow Cushion",
 		"price": "9.5",
-		"stock": "true",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","cushion","pillow"
@@ -642,7 +642,7 @@
 	{
 		"name": "Rabbit Backpack",
 		"price": "67.26",
-		"stock": "false",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","backpack"
@@ -662,7 +662,7 @@
 	{
 		"name": "Fabric Bucket",
 		"price": "93.24",
-		"stock": "true",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","fabric","bucket"
@@ -682,7 +682,7 @@
 	{
 		"name": "Fabric Bucket",
 		"price": "36.68",
-		"stock": "true",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"fabric","home","bucket"
@@ -702,7 +702,7 @@
 	{
 		"name": "Quotes Tablecloth",
 		"price": "88.76",
-		"stock": "false",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"tablecloth","home","quotes"
@@ -722,7 +722,7 @@
 	{
 		"name": "Dog Backpack",
 		"price": "24.01",
-		"stock": "true",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","backpack"
@@ -742,7 +742,7 @@
 	{
 		"name": "Pig Cushion",
 		"price": "28.9",
-		"stock": "true",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","cushion","animals"
@@ -762,7 +762,7 @@
 	{
 		"name": "Cat Cushion",
 		"price": "63.32",
-		"stock": "false",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","cushion"
@@ -782,7 +782,7 @@
 	{
 		"name": "Dog Cushion",
 		"price": "12.1",
-		"stock": "false",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home"
@@ -802,7 +802,7 @@
 	{
 		"name": "Pig Backpack",
 		"price": "42.36",
-		"stock": "true",
+		"stock": "",
 		"category": "home",
 		"tags": [
 			"home","backpack"
@@ -822,7 +822,7 @@
 	{
 		"name": "Rainbow Circles",
 		"price": "18.69",
-		"stock": "true",
+		"stock": "",
 		"category": "play",
 		"tags": [
 			"toy","shapes"
@@ -842,7 +842,7 @@
 	{
 		"name": "Rabbit Doll",
 		"price": "2.07",
-		"stock": "true",
+		"stock": "",
 		"category": "play",
 		"tags": [
 			"toy","doll"

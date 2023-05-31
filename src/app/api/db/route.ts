@@ -10,12 +10,12 @@ const DB_DATA = {
 };
  
 export async function GET(req: NextRequest) {
-    const res = await fetch(new URL('/main/db.json', req.url));
+  const res = await fetch(new URL('/main/db.json', req.url), {cache: 'no-store'});
     const data = await res.json();
    
     if(!DB_DATA.data || DB_DATA.expireAt <= new Date().getTime()) {
       DB_DATA.data = data.map((obj:Product) => {
-        const stock = Math.round(Math.random() * 1) === 1;
+        const stock = Math.round(Math.random() * 15);
         const rate = Math.round(Math.random() * 5);
         return ({
           ...obj,
