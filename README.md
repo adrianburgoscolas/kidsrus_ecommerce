@@ -97,3 +97,6 @@ belonging to the same category.
 - GitHub - [https://github.com/adrianburgoscolas](https://github.com/adrianburgoscolas)
 - LinkedIn - [Adrian Burgos Full Stack Web Developer](https://www.linkedin.com/in/adrian-burgos-1776a6144/)
 
+## Acknowledgments
+To mock the page data an api was implemted at `BASE_URL/api/db`, it returns an json with products info.
+To simulate a Data Base behavior some fields are randomly filled at request time every 10min.
