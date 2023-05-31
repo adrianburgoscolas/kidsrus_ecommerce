@@ -8,7 +8,7 @@ import Rate from "../Rate";
 import PriceFormat from "../PriceFormat";
 
 //Revalidate this component every 10min
-export const revalidate = 60 * 10;
+//export const revalidate = 60 * 10;
 
 export default async function HomeBestSellers() {
 
