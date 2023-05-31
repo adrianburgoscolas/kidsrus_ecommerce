@@ -10,26 +10,20 @@ const DB_DATA = {
 };
  
 export async function GET(req: NextRequest) {
-  const requestHeaders = new Headers(req.headers)
-
-  requestHeaders.set("Access-Control-Allow-Origin", "*")
-  requestHeaders.set('Access-Control-Allow-Methods', 'GET, OPTIONS')
-  requestHeaders.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
-
   const res = await fetch(new URL('/main/db.json', req.url), {cache: 'no-store'});
-    const data = await res.json();
-   
-    if(!DB_DATA.data || DB_DATA.expireAt <= new Date().getTime()) {
-      DB_DATA.data = data.map((obj:Product) => {
-        const stock = Math.round(Math.random() * 15);
-        const rate = Math.round(Math.random() * 5);
-        return ({
-          ...obj,
-          stock,
-          rate,
-        });
+  const data = await res.json();
+ 
+  if(!DB_DATA.data || DB_DATA.expireAt <= new Date().getTime()) {
+    DB_DATA.data = data.map((obj:Product) => {
+      const stock = Math.round(Math.random() * 15);
+      const rate = Math.round(Math.random() * 5);
+      return ({
+        ...obj,
+        stock,
+        rate,
       });
-      DB_DATA.expireAt = new Date().getTime() + (1000 * 60 * 10);
-    }
+    });
+    DB_DATA.expireAt = new Date().getTime() + (1000 * 60 * 10);
+  }
   return NextResponse.json(DB_DATA);
 }
