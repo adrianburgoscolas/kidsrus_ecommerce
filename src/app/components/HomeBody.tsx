@@ -15,13 +15,7 @@ import {useEffect} from 'react';
 
 export default function HomeBody({children,category}:{children: React.ReactNode,category:string[]}) {
 
-  const { pages, pageNum, setPageNum, categories, searchResult, handleCategories, handleSearch } = useHome();
-
-  useEffect(() => {
-    if(category[0]) {
-      handleCategories(category[0]);
-    }
-  },[]);
+  const { pages, pageNum, setPageNum, categories, searchResult, handleCategories, handleSearch } = useHome(category);
 
   return (
     <div className=''>

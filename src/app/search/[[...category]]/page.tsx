@@ -7,7 +7,7 @@ import AcceptCookies from '@/app/AcceptCookies';
 
 export const revalidate = 300; // revalidate this page every 5min
 
-export default function Search({params}:{params:{category:string}}) {
+export default function Search({params}:{params:{category:string[]}}) {
 
   const { category } = params;
 
@@ -17,7 +17,7 @@ export default function Search({params}:{params:{category:string}}) {
       <HomeHeader />
 
       {/*Client Component*/}
-      <HomeBody category={category}>
+      <HomeBody category={category || ['']}>
 
         {/*Server Component*/}
         {/* @ts-expect-error Async Server Component */}

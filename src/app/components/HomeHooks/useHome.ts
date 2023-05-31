@@ -3,7 +3,7 @@ import {useEffect, useState} from "react"
 import db from '@/app/lib/db';
 import type { Product, Categories } from "@/app/lib/utils";
 
-export default function useHome(): any
+export default function useHome(category:string[]): any
 {
 
   const [pageNum, setPageNum] = useState(0);
@@ -25,8 +25,12 @@ export default function useHome(): any
 
   useEffect(() => {
     async function getData() {
-      const res = await db.randomResults();
-      setSearchResult(res);
+      if(category[0] === ''){
+        const res = await db.randomResults();
+        setSearchResult(res);
+      } else {
+        handleCategories(category[0])
+      }
       const cat = await db.categories();
       setCategories(cat);
     }
