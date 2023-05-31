@@ -18,6 +18,7 @@
 
 FRONTEND DEVELOPER EXERCISE:
 Make a replica, in desktop version (non-responsive), of the following two pages:
+
 a) Page no. 1: Search Results This page contains a list of results from an article search. The functionalities that you must reproduce are the following:
 - When you first arrive at the page, articles are randomly displayed from the categories: for girls, for boys, for babies, for home, for play.
 - By pressing any of these categories, either by clicking on the links as circles or to the left in the category box, all items should be displayed.
@@ -84,5 +85,5 @@ b) Page no. 2: Product Page This page contains the characteristics of a particul
 - LinkedIn - [Adrian Burgos Full Stack Web Developer](https://www.linkedin.com/in/adrian-burgos-1776a6144/)
 
 ## Acknowledgments
-To mock the page data an api was implemted at `BASE_URL/api/db`, it returns an json with products info.
-To simulate a Data Base behavior some fields are randomly filled at request time every 10min.
+- To mock the page data an api was implemted at `BASE_URL/api/db`, it returns an json with products info.
+- To simulate a Data Base behavior some fields are randomly filled at request time every 10min.
