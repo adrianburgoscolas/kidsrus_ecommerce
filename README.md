@@ -12,53 +12,39 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
 FRONTEND DEVELOPER EXERCISE:
 Make a replica, in desktop version (non-responsive), of the following two pages:
-a) Page no. 1: Search Results
-This page contains a list of results from an article search. The
-functionalities that you must reproduce are the following:
- - When you first arrive at the page, articles are randomly displayed from the
-categories: for girls, for boys, for babies, for home, for play.
- - By pressing any of these categories, either by clicking on the links
-as circles or to the left in the category box, all items should be displayed.
- - Items out of stock cannot be added to the shopping cart (GIF)
- - In-stock items can be added to cart. (GIFs)
- - Moving the mouse over the product displays another image of the same product in
-case it exists.
- - Show the stars according to the evaluation of the product.
- - Clicking on any product sends the user to a page that we will call
-product page (PDP).
+a) Page no. 1: Search Results This page contains a list of results from an article search. The functionalities that you must reproduce are the following:
+- When you first arrive at the page, articles are randomly displayed from the categories: for girls, for boys, for babies, for home, for play.
+- By pressing any of these categories, either by clicking on the links as circles or to the left in the category box, all items should be displayed.
+- Items out of stock cannot be added to the shopping cart (GIF)
+- In-stock items can be added to cart. (GIFs)
+- Moving the mouse over the product displays another image of the same product in case it exists.
+- Show the stars according to the evaluation of the product.
+- Clicking on any product sends the user to a page that we will call product page (PDP).
 
-b) Page no. 2: Product Page
-This page contains the characteristics of a particular product. The functionalities
-that you must reproduce are the following:
+b) Page no. 2: Product Page This page contains the characteristics of a particular product. The functionalities that you must reproduce are the following:
 
- - The name of the product appears as the title of the page; as subtitle appears
-HOME: [category]: [product title]. The category is a link that should
-send you to the page that you developed in part a) with the selected category.
- - Each product must have:
-● Name or title
-● Price.
-● Quantity in stock.
-● Category
-● Tags
-● Description. The description can be the same for all products
-(lorem ipsum).
-● Additional information.
-● Valuation.
-● Sku (unique identifier).
-● Associated images.
- - When you move the mouse over the product image, an image appears next to it augmented.
- - You can view the different images of the product by clicking on them.
- - You can view the description and additional information of the product.
- - The images of related products must be four (4) maximum,
-belonging to the same category.
+- The name of the product appears as the title of the page; as subtitle appears HOME: [category]: [product title]. The category is a link that should send you to the page that you developed in part a) with the selected category.
+- Each product must have:
+  - Name or title
+  - Price.
+  - Quantity in stock.
+  - Category
+  - Tags
+  - Description. The description can be the same for all products(lorem ipsum).
+  - Additional information.
+  - Valuation.
+  - Sku (unique identifier).
+  - Associated images.
+- When you move the mouse over the product image, an image appears next to it augmented.
+- You can view the different images of the product by clicking on them.
+- You can view the description and additional information of the product.
+- The images of related products must be four (4) maximum, belonging to the same category.
 
 ### Screenshot
 
