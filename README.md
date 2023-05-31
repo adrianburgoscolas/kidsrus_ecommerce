@@ -54,7 +54,7 @@ b) Page no. 2: Product Page This page contains the characteristics of a particul
 
 ### Performance
 
-![](./performace.png)
+![](./performance.png)
 
 ### Links
 
