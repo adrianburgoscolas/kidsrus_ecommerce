@@ -5,7 +5,7 @@ import HomeFooter from '@/app/components/HomeFooter';
 import HomeBestSellers from '@/app/components/HomeBody/HomeBestSellers';
 import AcceptCookies from '@/app/AcceptCookies';
 
-export const revalidate = 10; // revalidate this page every 10 seconds
+export const revalidate = 60 * 5; // revalidate this page every 5min
 
 export default function Search({params}:{params:{category:string}}) {
 

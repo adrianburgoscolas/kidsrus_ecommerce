@@ -1,6 +1,6 @@
 import type { Product, Categories } from "./utils";
 async function getData() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/db`, { next: { revalidate: 10 }});
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/db`, { next: { revalidate: 60 * 5 }});
   if(!res.ok) {
     throw new Error('Error getting data');
   }
