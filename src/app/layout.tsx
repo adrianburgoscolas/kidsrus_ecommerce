@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body id='home' className={`flex flex-col ${quicksand.className} min-h-screen`}>
+      <body className={`flex flex-col ${quicksand.className} min-h-screen`}>
         <div role='banner' className='p-2 bg-background text-white text-[0.6rem] text-center font-black'>
           <p>20% off all kidswear + free shipping when you spend $60 or more</p>
         </div>

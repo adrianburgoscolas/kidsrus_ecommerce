@@ -11,7 +11,7 @@ export default function Search({params}:{params:{category:string[]}}) {
   const { category } = params;
 
   return (
-    <main className='grow w-[50rem] mt-10 mx-auto'>
+    <main id='home' className='grow w-[50rem] mt-10 mx-auto'>
       {/*Server Component*/}
       <HomeHeader />
 
