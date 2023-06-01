@@ -15,10 +15,11 @@ export default function HomeSearch({setKeyword}:{setKeyword: Function}) {
   return (
     <form className='flex'>
       <input 
+        required
         onChange={e => setTextInput(e.currentTarget.value)}
         value={textInput}
         className='text-sm text-secdark w-20 flex-auto border-2 border-dotted pl-4 focus:outline-2 focus:outline outline-seclight' 
-        type='text' 
+        type='search' 
         placeholder='Search products...'
       />
       <button title='Search Produc' onClick={handleSubmit} className='flex-none bg-background w-10 h-10 flex justify-center items-center'>
