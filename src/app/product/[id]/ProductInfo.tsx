@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { gilda, francois_one, quicksand } from '@/app/fonts/fonts';
 import Active from '@/app/images/home-8.png'
 import avatar from '@/app/images/85069033_185901059177965_6767010623440980864_nlow.jpg'
-import { toTitleCase } from '@/app/lib/utils';import Rate from '@/app/components/Rate';
 import {useState} from 'react';
 
+import Rate from '@/app/components/Rate';
 
 export default function ProductInfo({description,info,name,rate,stock}:{description:string,info:{[index:string]:string},name:string,rate:number,stock:number}) {
   const [nav, setNav] = useState('description')
@@ -50,7 +50,7 @@ export default function ProductInfo({description,info,name,rate,stock}:{descript
               </tr>
               <tr>
                 <td className='text-primary p-2'>Material</td>
-                <td>{toTitleCase(info.material)}</td>
+                <td><span className='capitalize'>{info.material}</span></td>
               </tr>
               <tr>
                 <td className='text-primary p-2'>Age</td>

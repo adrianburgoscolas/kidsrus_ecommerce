@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import db from '@/app/lib/db';
-import {Product, toTitleCase} from '@/app/lib/utils';
 import Link from 'next/link';
 
 import ProductImage from './ProductImage';
@@ -78,11 +77,13 @@ export default async function Product({params}:{params:{id: string}}) {
                 </tr>
                 <tr>
                   <td className='text-primary p-2'>Category</td>
-                  <td>For {toTitleCase(product.category)}</td>
+                  <td>For <span className='capitalize'>{product.category}</span></td>
                 </tr>
                 <tr>
                   <td className='text-primary p-2'>Tags</td>
-                  <td>{product.tags.map((tag, i, arr) => <span key={i}>{toTitleCase(tag)}{i !== arr.length -1?', ':''}</span>)}</td>
+                  <td>{
+                    product.tags
+                      .map((tag:string, i:number, arr:string[]) => <span key={i}><span className='capitalize'>{tag}</span>{i !== arr.length -1?', ':''}</span>)}</td>
                 </tr>
               </tbody>
             </table>

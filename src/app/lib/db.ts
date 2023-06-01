@@ -93,4 +93,5 @@ class Db {
   }
 }
 
-export default new Db(getData);
+const db = new Db(getData);
+export default db;

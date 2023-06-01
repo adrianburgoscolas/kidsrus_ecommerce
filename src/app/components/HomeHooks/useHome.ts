@@ -36,7 +36,7 @@ export default function useHome(category:string[]): any
     }
 
     getData();
-  },[]);
+  },[category]);
 
   return {
     setPageNum,

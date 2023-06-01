@@ -18,7 +18,7 @@ export default function AcceptCookies() {
 
   return (
     <div className={`${style.translate && 'translate-y-20'} ${style.hide && 'opacity-0'} transition-all duration-700 p-2 fixed bottom-0 z-30 flex items-center justify-center bg-seclight left-0 w-[100vw]`}>
-      <p className="p-1">This website use cookies to improve your experience. We&apos;ll assume you&apos;r ok with this, but you can opt-out if you wish</p>
+      <p className="p-1 mr-2">This website use cookies to improve your experience. We&apos;ll assume you&apos;r ok with this, but you can opt-out if you wish</p>
       <button onClick={handleClick} className='bg-black text-seclight p-1'>Accept</button>
     </div>
   );

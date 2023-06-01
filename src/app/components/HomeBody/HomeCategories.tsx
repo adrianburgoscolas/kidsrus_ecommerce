@@ -11,7 +11,7 @@ export default function HomeCategories({categories, handleCategories}: {categori
     >
       <p 
         onClick={_ => handleCategories(category)}
-        className='cursor-pointer text-primary hover:text-background transition-all'>For {toTitleCase(category)}</p>
+        className='cursor-pointer text-primary hover:text-background transition-all'>For <span className='capitalize'>{category}</span></p>
       <p className='text-secdark'>({categories[category]})</p>
     </li>
   ));

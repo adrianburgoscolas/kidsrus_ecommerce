@@ -6,7 +6,6 @@ import { quicksand, gilda, francois_one } from "@/app/fonts/fonts";
 import HomeSearchResultAddToWish from '@/app/components/HomeBody/HomeSearchResult/HomeSearchResultAddToWish';
 import HomeSearchResultAddToCart from '@/app/components/HomeBody/HomeSearchResult/HomeSearchResultAddToCart';
 import PriceFormat from "../PriceFormat";
-import {toTitleCase} from "@/app/lib/utils";
 
 type SearchResultProp = {
   images: string[],
@@ -58,7 +57,7 @@ export default function HomeSearchResult({images, category, name, price, stock, 
         <p 
           className={`text-[0.6rem] font-bold text-background hover:text-primary transition-all cursor-pointer ${quicksand.className}`}
         >
-          For {toTitleCase(category)}
+          For <span className='capitalize'>{category}</span>
         </p>
         <Link href={`/product/${sku}`}>
           <h3 
