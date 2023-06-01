@@ -1,4 +1,4 @@
-import { Categories, toTitleCase } from "@/app/lib/utils";
+import { Categories } from "@/app/lib/utils";
 import { francois_one } from "@/app/fonts/fonts";
 
 export default function HomeCategories({categories, handleCategories}: {categories: Categories, handleCategories: Function}) {

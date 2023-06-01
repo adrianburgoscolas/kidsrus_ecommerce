@@ -10,10 +10,11 @@ import Rate from '@/app/components/Rate';
 import ProductAddToCart from './ProductAddToCart';
 import ProductInfo from "./ProductInfo";
 import ProductFooter from "./ProductFooter";
+import type { Product } from '@/app/lib/utils';
 
 export const revalidate = 300; // revalidate this page every 10 seconds
 
-export default async function Product({params}:{params:{id: string}}) {
+export default async function ProductHome({params}:{params:{id: string}}) {
   const { id } = params;
   const product: Product = await db.product(id);
   if(!product) {
