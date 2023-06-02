@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,6 +7,7 @@ import './globals.css';
 import { francois_one, quicksand } from '@/app/fonts/fonts';
 import Nav from '@/app/components/Nav';
 import AcceptCookies from '@/app/AcceptCookies';
+import ScrollToTop from './ScrollToTop';
 
 export const metadata = {
   title: "KIDS 'R' US" ,
@@ -31,6 +30,7 @@ export default function RootLayout({
           <Image width={215} height={71} src={primaryLogo} alt='KIDSRUS PRIMARY LOGO'/>
         </header>
         <Nav />
+        <div id='top'></div>
         {children}
         <footer 
           className='relative w-full flex justify-center items-center h-96' 
@@ -86,13 +86,8 @@ export default function RootLayout({
             All Rights Reserved
           </p>
         </footer>
-        <Link 
-          title='Home'
-          href='#home' 
-          className='flex justify-center items-center outline-dashed outline-2 outline-white -outline-offset-[7px] fixed bottom-20 right-10 bg-background opacity-50 hover:opacity-100 transition-all p-4'>
-              <FontAwesomeIcon className='h-3 w-3 text-white' icon={faChevronUp}/>
-        </Link>
-      <AcceptCookies />
+        <AcceptCookies />
+        <ScrollToTop />
       </body>
     </html>
   )

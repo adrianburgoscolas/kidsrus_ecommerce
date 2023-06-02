@@ -40,8 +40,10 @@ export default function ProductInfo({description,info,name,rate,stock}:{descript
         <div className={`absolute border-2 border-dotted px-2 font-bold text-secdark transition-all duration-700 ${nav === 'additional'?'translate-y-0':'translate-y-[40rem]'}`}>
           <table className='table-fixed w-full'>
             <thead>
-              <th className={`w-32 ${francois_one.className}`}></th>
-              <th></th>
+              <tr>
+                <th className={`w-32 ${francois_one.className}`}></th>
+                <th></th>
+              </tr>
             </thead>
             <tbody className='divide-y-[1px]'>
               <tr>

@@ -1,4 +1,5 @@
 //Server Component
+
 import HomeHeader from '@/app/components/HomeHeader';
 import HomeBody from '@/app/components/HomeBody';
 import HomeFooter from '@/app/components/HomeFooter';
@@ -11,7 +12,7 @@ export default function Search({params}:{params:{category:string[]}}) {
   const { category } = params;
 
   return (
-    <main id='home' className='grow w-[50rem] mt-10 mx-auto'>
+    <main className='grow w-[50rem] mt-10 mx-auto'>
       {/*Server Component*/}
       <HomeHeader />
 
