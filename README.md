@@ -65,7 +65,8 @@ b) Page no. 2: Product Page This page contains the characteristics of a particul
 
 ### Built with
 
-- [Next.js](https://nextjs.org/) - React framework
+- [Next.js](https://nextjs.org/) - React FullStack Web Dev framework
+- [TypeScript1](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript
 - Semantic HTML5 markup
 - TailwindCSS custom properties
 
